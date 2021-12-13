@@ -1,0 +1,2 @@
+# shadownotes
+Második webfejlesztés beadandóm
