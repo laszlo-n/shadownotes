@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card bg-light my-3">
+        <div class="card-body">
+          <h2 class="card-title text-center text-dark py-3">{{ title }}</h2>
+          <ul class="text-center list-inline py-3">
+            <li class="list-inline-item">
+              <a routerLink="/notes" class="btn btn-info">List All Notes</a>
+            </li>
+            <li class="list-inline-item">
+              <a routerLink="/addnote" class="btn btn-info">Add New Note</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
